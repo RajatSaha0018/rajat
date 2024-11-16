@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <style>
+        body {
+            margin: 0;
+            background-image: url(back.jpg);
+            background-size: cover;
+        }
+        .divmain{
+            height: 50vh;
+            width: 60%;
+            margin-top: 25vh;
+            margin-left: 20%;
+        }
+        .divleft{
+            height: 50vh;
+            width: 70%;
+            background-color: bisque;
+            float: left;
+            background-image: url(back.jpg);
+            background-size: cover;
+            filter: contrast(0.9);
+            
+        }
+        .divright{
+            height: 50vh;
+            width: 30%;
+            float: left;
+            background-color: rgba(139, 140, 141, 0.428);
+        }
+        .formdiv{
+            height: 25vh;
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 6vh;
+        }
+        input[type=text],
+        input[type=password]{
+            font-size: 1.9vh;
+            color: white;
+            width: 91.5%;
+            margin-bottom: 1vh;
+            padding: 1vh;
+            background-color: transparent;
+            border: none;
+            border-bottom: solid;
+            border-bottom-color: white;
+            border-bottom-width: .3vh;
+        }
+        .button-31{
+            background-color: #0b0b0b;
+            border-radius: 4px;
+            border-style: none;
+            box-sizing: border-box;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            font-family: "Farfetch Basis", Arial;
+            font-size: 2.5vh;
+            font-weight: 500;
+            line-height: 1.5;
+            margin: 0;
+            max-width: none;
+                min-height: 12px;
+                min-width: 10px;
+            outline: none;
+            overflow: hidden;
+            padding: -1vh 8px;
+            position: relative;
+            text-align: center;
+            text-transform: none;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: 100%;
+            border-color: white;
+            border-width: 0.3;
+            border-style: solid;
+            margin-top: 3vh;
+        }
+        .button-31:hover,
+        .button-31:focus{
+            opacity: .75;
+        }
+        .circle{
+            height: 15vh;
+            width: 15vh;
+            border-radius: 50%;
+            margin-left: 5.1vw;
+            margin-top: 5vh;
+            background-image: url(1.png);
+            background-size: cover;
+        }
+        #logo{
+            height: 18vh;
+            width: 60vh;
+            background-image: url(logo.png);
+            background-size: cover;
+            margin-top: 11vh;
+        }
+        #tagline{
+            color: white;
+            font-size: 4vh;
+            margin-left: 7vh;
+            margin-top: -4vh;
+            font-family: sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="divmain">
+        <div class="divleft">
+            <div id="logo"></div>
+            <div id="tagline">Let's explore the game.</div>
+        </div>
+        <div class="divright">
+            <div class="circle"></div>
+            <div class="formdiv">
+                <input type="text" name="emailid" id="email">
+                <input type="password" name="password" id="password">
+                <input type="submit" value="login" id="'submit" class="button-31">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
